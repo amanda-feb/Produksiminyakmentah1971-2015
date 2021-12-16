@@ -296,7 +296,7 @@ else:
         ])
         table1.update_layout(autosize=True, margin=dict(r=5, l=5, t=5, b=5))
         st.plotly_chart(table1, use_container_width=True)
-    st.write("✨" * 55)
+st.write("✨" * 55)
 '''
 By Amanda Febriani (12220025) | 12220025@mahasiswa.itb.ac.id
 '''
