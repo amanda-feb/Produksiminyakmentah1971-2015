@@ -45,7 +45,6 @@ Country = [dic['name'] for dic in countryList]
 alpha_3 = [dic['alpha-3'] for dic in countryList]
 
 codelist = dict(zip(Country, alpha_3))
-codeList2 = dict(zip(alpha_3, Country))
 #################################################################################################
 st.write("✨" * 55)
 #nomer 1
