@@ -120,7 +120,7 @@ def build_dict(seq, key):
 
 #Glosarium data negara di sidebar
 st.sidebar.title("Glosarium Data Negara")
-info = st.sidebar.selectbox("Pilih kode negara",sorted(alpha_3),help='Anda akan mendapatkan ringkasan info negara tersebut')
+info = st.sidebar.selectbox("Pilih kode negara",sorted(alpha_3),help='Pilih kode negara yang ingin Anda lihat datanya')
 
 country_by_name = build_dict(summdata, key="Kode Negara 3 Huruf")
 country_info = country_by_name.get(info.upper())
