@@ -78,9 +78,9 @@ finalsum = [(v, k) for k, v in country_info.items()]
 
 for (v, k) in finalsum[:]:
     st.sidebar.write(k.capitalize(), ':', v)
-#################################################################################################
+#################################################################################################membuat menu
 menu = st.radio(
-     "What's your favorite movie genre",
+     "Pilih menu yang diinginkan:",
      ('Grafik Produksi Minyak Mentah Suatu Negara Terhadap Waktu (Tahun)', 'Grafik Peringkat Produksi Minyak Mentah Pada Tahun Tertentu',
       'Grafik Peringkat Produksi Minyak Mentah Secara Kumulatif Pada Keseluruhan Tahun','Data Summary'))
 
