@@ -88,7 +88,7 @@ if menu == 'Grafik Produksi Minyak Mentah Suatu Negara Terhadap Waktu (Tahun)':
      st.write("✨" * 55)
      # nomer 1
      st.header('Grafik Produksi Minyak Mentah Suatu Negara Terhadap Waktu (Tahun)')
-     x = st.selectbox('Pilih Negara yang diinginkan', Country)
+     x = st.selectbox('Pilih Negara yang diinginkan', sorted(Country))
 
      # membuat dataframe yang diinginkan
      y = codelist[x]
