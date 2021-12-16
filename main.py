@@ -40,7 +40,7 @@ for c in countcode:
         targetList = countryList if d.get('alpha-3') == c else nl
         targetList.append(d)
 
-#membuat list negara, region, subregion yang ada di csv dari list dict yg sdh di filter
+#membuat list negara, kode negara, dan tahun yang ada di csv dari list dict yg sdh di filter
 Country = [dic['name'] for dic in countryList]
 alpha_3 = [dic['alpha-3'] for dic in countryList]
 Year = list(df['tahun'])
