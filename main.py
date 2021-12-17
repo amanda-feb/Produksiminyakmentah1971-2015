@@ -85,7 +85,7 @@ menu = st.radio(
       'Grafik Peringkat Produksi Minyak Mentah Secara Kumulatif Pada Keseluruhan Tahun','Data Summary'))
 
 if menu == 'Grafik Produksi Minyak Mentah Suatu Negara Terhadap Waktu (Tahun)':
-     st.write("✨" * 55)
+     st.write(":sparkles:" * 55)
      # nomer 1
      st.header('Grafik Produksi Minyak Mentah Suatu Negara Terhadap Waktu (Tahun)')
      x = st.selectbox('Pilih Negara yang diinginkan', sorted(Country))
@@ -101,7 +101,7 @@ if menu == 'Grafik Produksi Minyak Mentah Suatu Negara Terhadap Waktu (Tahun)':
 
 elif menu == 'Grafik Peringkat Produksi Minyak Mentah Pada Tahun Tertentu':
     # nomer 2
-    st.write("✨" * 55)
+    st.write(":sparkles:" * 55)
     st.header('Grafik Peringkat Produksi Minyak Mentah Pada Tahun Tertentu')
 
     # input tahun dan jumlah negara
@@ -119,7 +119,7 @@ elif menu == 'Grafik Peringkat Produksi Minyak Mentah Pada Tahun Tertentu':
 
 elif menu == 'Grafik Peringkat Produksi Minyak Mentah Secara Kumulatif Pada Keseluruhan Tahun':
     # nomer 3
-    st.write("✨" * 55)
+    st.write(":sparkles:" * 55)
     st.header('Grafik Peringkat Produksi Minyak Mentah Secara Kumulatif Pada Keseluruhan Tahun')
 
     # Menambahkan kolom baru
@@ -296,7 +296,7 @@ else:
         ])
         table1.update_layout(autosize=True, margin=dict(r=5, l=5, t=5, b=5))
         st.plotly_chart(table1, use_container_width=True)
-st.write("✨" * 55)
+st.write(":sparkles:" * 55)
 '''
 By Amanda Febriani (12220025) | 12220025@mahasiswa.itb.ac.id
 '''
